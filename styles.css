@@ -1,0 +1,446 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-colour: rgb(40,116,240);
+}
+
+body{
+    font-family: sans-serif;
+    background-color: #c7c7c7;
+    color: black;
+    
+   
+}
+
+header{
+    width: 100vw;
+    height: 6vh;
+    background-color: var(--primary-colour);
+    position: sticky;
+    top: 0;
+    display: inline-block;
+}
+
+header img{
+    object-fit: contain;
+    width: 12vw;
+    height: 4vh;
+    margin-left: 20px;
+    display: inline;
+    margin-top: 2px;
+}
+
+
+
+header p{
+    color: white;
+    font-family: sans-serif;
+    font-size: 0.5rem;   
+}
+
+header input{
+    width: 40vw;
+    margin-left: 10px;
+    
+}
+header input{
+    font-size: 8px;
+}
+
+header p{
+    display: inline;
+}
+
+header button{
+    color: var(--primary-colour);
+    font-size: 8px;
+}
+
+.module-wrapper{
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    
+
+    
+}
+
+.module{
+   
+    text-align: center;
+    font-size: 0.5rem;
+}
+
+.module img{
+    width: 10vw;
+    height: 4vh;
+    object-fit: contain;
+
+}
+
+.corousel-wrapper img{
+    
+    width: 100vw;
+    height: 10vh;
+    object-fit: cover;
+    background-color: white;
+    padding: 5px; 
+    margin-top: 5px;
+}
+
+
+
+
+.top-offers{
+    display: flex;
+    justify-content: space-evenly;
+    height: 14vh;
+    background-color: white;
+    padding: 5px;
+    box-shadow: 1px 5px blur radius gray;
+}
+
+.top-offers1 p{
+    display: block;
+    font-size: 8px;
+    
+}
+
+.top-offers1 img{
+    width: 17vw;
+    height: 6vh;
+}
+
+.top-offers2 p{
+    display: block;
+    font-size: 8px;
+    
+}
+
+.top-offers2 img{
+    width: 17vw;
+    height: 6vh;
+}
+
+
+
+.boat-ad img {
+    height: 11vh;
+    width: 17vw;
+}
+
+.ad-top-offers span{
+    display: block;
+    font-size: 10px;
+}
+
+.ad-top-offers button{
+    font-size: 10px;
+    background-color: var(--primary-colour);
+    color: white;
+    border: transparent;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.ad-top-offers img{
+    width: 20vw;
+    height: 5vh;
+
+    margin-top: 10px;
+
+}
+
+.buy-more1{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    
+    height: 12vh;
+    padding: 5px;
+    margin-top: 5px;
+    
+
+    
+
+}
+.buy-more1 img{
+    width: 31vw;
+    height: 11vh;
+    object-fit: contain;
+}
+
+
+.buy-more2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white; 
+    height: 11vh;
+    padding: 5px;
+    
+}
+.buy-more2 img{
+    width: 31vw;
+    height: 11vh;
+    object-fit: contain;
+}
+
+
+
+.tfd{
+    display: flex;
+    justify-content: space-evenly;
+  background-color: white;
+    height: 15vh;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+
+
+.tfd1 p{
+    display: block;
+    font-size: 8px;
+    
+}
+
+.tfd1 img{
+    width: 17vw;
+    height: 9vh;
+}
+
+.tfd2 p{
+    display: block;
+    font-size: 8px;
+    
+}
+
+.tfd2 img{
+    width: 17vw;
+    height: 9vh;
+}
+
+.tfd3 p{
+    display: block;
+    font-size: 8px;
+    
+}
+
+.tfd3 img{
+    width: 17vw;
+    height: 9vh;
+}
+
+.ad-tfd span{
+    
+    font-size: 10px;
+}
+
+.ad-tfd button{
+    font-size: 10px;
+    background-color: var(--primary-colour);
+    color: white;
+    border: transparent;
+    margin-top: 5px;
+    padding: 5px;
+    display:block;
+}
+
+.ad-tfd img{
+    width: 20vw;
+    height: 5vh;
+    margin-top: 5px;
+
+}
+
+.realme{
+    width: 100vw;
+    height: 12vh;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    padding: 5px;
+    margin-top: 5px;
+    
+}
+.realme img{
+    object-fit: contain;
+    width: 31vw;
+    height: 11vh;
+}
+
+
+.brands1{
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: white;
+    margin-top: 5px;
+}
+
+.brands1 p{
+    font-size: 10px;
+}
+
+.brands2{
+    
+    height: 12vh;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    padding: 5px;
+    margin-top: 3px;
+    object-fit: contain;
+}
+
+.brands2 img{
+  width: 31vw;
+  height: 10vh;
+  
+  
+}
+
+.eanda{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+   object-fit: contain;
+    height: 14vh;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.eanda1 p{
+    display: block;
+    font-size: 8px;
+    
+    
+}
+
+.eanda1 img{
+    width: 15vw;
+    height: 7vh;
+}
+
+.eanda2 p{
+    display: block;
+    font-size: 8px;
+    
+    
+}
+
+.eanda2 img{
+    width: 15vw;
+    height: 7vh;
+}
+
+.eanda3 p{
+    display: block;
+    font-size: 8px;
+    
+    
+}
+
+.eanda3 img{
+    width: 15vw;
+    height: 7vh;
+}
+
+
+.ad-eanda span{
+    display: block;
+    font-size: 10px;
+}
+
+.ad-eanda button{
+    font-size: 10px;
+    background-color: var(--primary-colour);
+    color: white;
+    border: transparent;
+    margin-top: 3px;
+    padding: 5px;
+}
+
+.ad-eanda img{
+    width: 20vw;
+    height: 5vh;
+    margin-top: 5px;
+
+
+}
+
+.underplate{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+      height: 12vh;
+      padding: 5px;
+      margin-top: 5px;
+      width: 100vw;
+    
+    
+}
+
+.underplate img{
+    width: 25vw;
+    height: 11vh;
+    
+    object-fit: contain;
+    
+}
+
+.last-block{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    object-fit: contain;
+      height: 12vh;
+      padding: 5px;
+      margin-top: 5px;
+}
+
+.last-block img{
+    width: 31vw;
+    height: 11vh;
+}
+
+footer{
+    background-color: rgb(23,35,55);
+    width: 100vw;
+    height: 150px;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.footer-wrap{
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+
+.footer-modules{
+    
+    font-size: 6px;
+    color: white;
+    padding: 10px;
+}
+
+.footer-modules span{
+    color: gray;
+    font-size: 8px;
+    
+}
+
+.last-thing{
+    padding: 10px;
+    font-size: 6px;
+    color: white;
+    border-top: white;
+}
